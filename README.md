@@ -42,3 +42,7 @@ python3 manage.py load_movie_data
 http://localhost:8000/api/v1/movie
 
 You can pass 'genre' query parameter separated by commas and you can search by movie title using 'search' query parameter.
+
+e.g. Search for movies starting with 'in' for 'drama' and 'history' genres
+
+http://localhost:8000/api/v1/movie/?search=in&genre=drama,history
